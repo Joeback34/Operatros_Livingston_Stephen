@@ -7,6 +7,7 @@ namespace Operatros_Livingston_Stephen
         static void Main(string[] args)
         {
             // INTEGERS
+            Console.WriteLine("INTEGERS");
             int intMult = 6 * 45; // Initializes an integer that multiplies two integers
 
             int intAdd = 55 + 66;  // Initialized an integer that adds to integers
@@ -16,9 +17,10 @@ namespace Operatros_Livingston_Stephen
 
             bool isIntGreater = intMult > intAdd; // Initializes boolean to see if inMult is greater than inAdd
 
-            Console.WriteLine($"{intMult} is greater than {intAdd}, {isIntGreater}."); // Prints if inMult is greater than inAdd
+            Console.WriteLine($"{intMult} is greater than {intAdd}, {isIntGreater}.\n"); // Prints if inMult is greater than inAdd
 
             // SHORTS
+            Console.WriteLine("SHORTS");
             short shortMult = 6 * 45; // Initializes an shorteger that multiplies two shortegers
 
             short shortAdd = 55 + 66;  // Initialized an shorteger that adds to shortegers
@@ -28,9 +30,10 @@ namespace Operatros_Livingston_Stephen
 
             bool isshortGreater = shortMult > shortAdd; // Initializes boolean to see if inMult is greater than inAdd
 
-            Console.WriteLine($"{shortMult} is greater than {shortAdd}, {isshortGreater}."); // Prints if inMult is greater than inAdd
+            Console.WriteLine($"{shortMult} is greater than {shortAdd}, {isshortGreater}.\n"); // Prints if inMult is greater than inAdd
 
             // LONG
+            Console.WriteLine("LONG");
             long longMult = 6 * 45; // Initializes an longthat multiplies two long
 
             long longAdd = 55 + 66;  // Initialized an long that adds to long
@@ -40,9 +43,10 @@ namespace Operatros_Livingston_Stephen
 
             bool islongGreater = longMult > longAdd; // Initializes boolean to see if inMult is greater than inAdd
 
-            Console.WriteLine($"{longMult} is greater than {longAdd}, {islongGreater}."); // Prlongs if inMult is greater than inAdd
+            Console.WriteLine($"{longMult} is greater than {longAdd}, {islongGreater}.\n"); // Prlongs if inMult is greater than inAdd
 
             // FLOAT
+            Console.WriteLine("FLOAT");
             float floatMult = 6.5f * 45.24f; // Initializes an floa thatt multiplies two float
 
             float floatAdd = 55.35f + 66.15f;  // Initialized an float that adds to float
@@ -52,21 +56,23 @@ namespace Operatros_Livingston_Stephen
 
             bool isfloatGreater = floatMult > floatAdd; // Initializes boolean to see if inMult is greater than inAdd
 
-            Console.WriteLine($"{floatMult} is greater than {floatAdd}, {isfloatGreater}."); // floats if inMult is greater than inAdd
+            Console.WriteLine($"{floatMult} is greater than {floatAdd}, {isfloatGreater}.\n"); // floats if inMult is greater than inAdd
 
             // DOUBLE
-            double doubleMult = 6.69 * 45.58; // Initializes an doubleeger that multiplies two doubleegers
+            Console.WriteLine("DOUBLE");
+            double doubleMult = 6.69 * 45.58d; // Initializes an doubleeger that multiplies two doubleegers
 
-            double doubleAdd = 55.48 + 66.15;  // Initialized an doubleeger that adds to doubleegers
+            double doubleAdd = 55.48 + 66.15d;  // Initialized an doubleeger that adds to doubleegers
 
             Console.WriteLine($"The max of {doubleMult} and {doubleAdd} is {Math.Max(doubleMult, doubleAdd)}." + // doubles the maximum and minimum of the two double variable
                 $"The min of two is {Math.Min(doubleMult, doubleAdd)}.");
 
             bool isdoubleGreater = doubleMult > doubleAdd; // Initializes boolean to see if inMult is greater than inAdd
 
-            Console.WriteLine($"{doubleMult} is greater than {doubleAdd}, {isdoubleGreater}."); // doubles if inMult is greater than inAdd
+            Console.WriteLine($"{doubleMult} is greater than {doubleAdd}, {isdoubleGreater}.\n"); // doubles if inMult is greater than inAdd
 
             // DECIMAL
+            Console.WriteLine("DECIMAL");
             decimal decimalMult = (decimal)(6.25 * 45.15); // Initializes an decimal that multiplies two decimal
 
             decimal decimalAdd = (decimal)(55.66 + 66.55);  // Initialized an decimal that adds to decimal
@@ -76,7 +82,7 @@ namespace Operatros_Livingston_Stephen
 
             bool isdecimalGreater = decimalMult > decimalAdd; // Initializes boolean to see if inMult is greater than inAdd
 
-            Console.WriteLine($"{decimalMult} is greater than {decimalAdd}, {isdecimalGreater}."); // Prdecimals if inMult is greater than inAdd
+            Console.WriteLine($"{decimalMult} is greater than {decimalAdd}, {isdecimalGreater}.\n"); // Prdecimals if inMult is greater than inAdd
 
 
 
